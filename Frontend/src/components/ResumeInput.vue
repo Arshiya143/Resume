@@ -105,7 +105,7 @@
                                         <div class="row">
                                             <div class="col-md-4">
                                                 <div class="form-group">
-                                                    <label class="label float-left" for="email">Social Website</label><br><br>
+                                                    <label class="label float-left" for="email">Social Website</label>
                                                     <select v-model="social.web" class="form-select sel" aria-label="Default select example">
                                                         <option value="" selected disabled hidden>Select Website</option>
                                                         <option value="Twitter" selected>Twitter</option>
@@ -143,7 +143,7 @@
                                             <div class="row">
                                                 <div class="col-md-4">
                                                     <div class="form-group">
-                                                        <label class="label float-left mb-4" for="email">Social Website</label>
+                                                        <label class="label float-left">Social Website</label>
                                                         <select v-model="social1.web" class="form-select sel" aria-label="Default select example">
                                                         <option value="" selected disabled hidden>Select Website</option>
                                                         <option value="Twitter" selected>Twitter</option>
@@ -181,7 +181,7 @@
                                                 <div class="row">
                                                     <div class="col-md-4">
                                                         <div class="form-group">
-                                                            <label class="label float-left mb-4" for="email">Social Website</label>
+                                                            <label class="label float-left" for="email">Social Website</label>
                                                             <select v-model="social2.web" class="form-select sel" aria-label="Default select example">
                                                             <option value="" selected disabled hidden>Select Website</option>
                                                             <option value="Twitter" selected>Twitter</option>
@@ -524,11 +524,6 @@
                                                 <input type="button" v-if="edu1.action" v-on:click="edu1_delete" class="del rounded-pill text-white" value="Delete"/>
                                             </div>
                                         </div>
-                                        <div class="row mt-4">
-                                            <div class="col-md-12 mb-4">
-                                                <a class="float-left" v-if="edu1.next" data-toggle="collapse" href="#degree1" aria-expanded="false" aria-controls="degree1"><i class="fa fa-link"></i>&nbsp;&nbsp;Add Another Degree</a>
-                                            </div>
-                                        </div>
                                     </div>
                                 </div>
                                 <input type="button" name="previous" class="previous action-button-previous" value="Previous"/>
@@ -727,10 +722,9 @@
                                             <div class="col-md-2">
                                                 <input type="button" v-if="lang1.action" v-on:click="lang1_delete" class="del rounded-pill text-white" value="Delete"/>
                                             </div>
-                                            <br>
                                         </div>
                                     </div>
-                                    <h6 class="fs-title mb-4">Let's get to know you on a more personal and cultural level</h6>
+                                    <h6 class="fs-title mt-4 mb-4">Let's get to know you on a more personal and cultural level</h6>
                                     <h6 class="mb-5">You can also use them to describe specific skills that are necessary for a position</h6>
                                     <div class="row">
                                         <div class="col-md-6">
