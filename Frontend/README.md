@@ -1,4 +1,4 @@
-# resume-front
+# Resume-front
 
 ## Project setup
 ```
